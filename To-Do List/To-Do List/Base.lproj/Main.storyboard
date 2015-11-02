@@ -34,15 +34,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="VNh-1e-zoX">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="v64-7F-pXR">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="REg-Ae-dAh">
-                                <rect key="frame" x="20" y="7" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <connections>
-                                    <segue destination="StP-F0-X4O" kind="show" id="fqg-Eq-gCA"/>
-                                </connections>
-                            </button>
+                        <barButtonItem key="leftBarButtonItem" title="View Status" id="h0z-hg-mc0">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="StP-F0-X4O" kind="show" id="OnP-8E-C83"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="gh1-40-zzK">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uob-IX-K4W">
@@ -63,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1986" y="-108"/>
+            <point key="canvasLocation" x="-1994" y="-122"/>
         </scene>
         <!--Add View-->
         <scene sceneID="s1O-eP-obc">
@@ -133,15 +129,6 @@
                                     <action selector="didnotSendMessage:" destination="nOn-rB-PTE" eventType="touchUpInside" id="1f1-uG-31O"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdQ-c5-HJD">
-                                <rect key="frame" x="263" y="124" width="74" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="View Task"/>
-                                <connections>
-                                    <segue destination="StP-F0-X4O" kind="show" id="GI1-e7-1ot"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -154,13 +141,11 @@
                             <constraint firstItem="Ytt-AA-Xqp" firstAttribute="top" secondItem="mgo-VC-blT" secondAttribute="bottom" constant="8" id="FZQ-aC-Rbm"/>
                             <constraint firstItem="mgo-VC-blT" firstAttribute="centerX" secondItem="O2R-Fi-okx" secondAttribute="centerX" id="Kd5-Dc-4un"/>
                             <constraint firstItem="yti-ZS-dXD" firstAttribute="top" secondItem="UWi-gf-4aa" secondAttribute="bottom" constant="14" id="L3l-hG-LaU"/>
-                            <constraint firstItem="bdQ-c5-HJD" firstAttribute="top" secondItem="Ytt-AA-Xqp" secondAttribute="bottom" constant="-151" id="MPa-ph-ZYN"/>
                             <constraint firstItem="mgo-VC-blT" firstAttribute="centerX" secondItem="vbd-9C-81l" secondAttribute="centerX" id="Un3-VW-Aud"/>
                             <constraint firstItem="Ytt-AA-Xqp" firstAttribute="leading" secondItem="mgo-VC-blT" secondAttribute="leading" id="YiN-6S-9Gg"/>
                             <constraint firstItem="UWi-gf-4aa" firstAttribute="top" secondItem="vbd-9C-81l" secondAttribute="top" constant="20" symbolic="YES" id="fME-3C-Wxh"/>
                             <constraint firstItem="mgo-VC-blT" firstAttribute="top" secondItem="hOv-cc-sd8" secondAttribute="bottom" constant="8" id="ngi-jV-zlB"/>
                             <constraint firstItem="O2R-Fi-okx" firstAttribute="top" secondItem="yti-ZS-dXD" secondAttribute="bottom" constant="31" id="uVM-2J-C7Z"/>
-                            <constraint firstItem="bdQ-c5-HJD" firstAttribute="centerX" secondItem="Ytt-AA-Xqp" secondAttribute="centerX" id="xDA-5Z-4mA"/>
                             <constraint firstItem="hMi-PQ-YfX" firstAttribute="trailing" secondItem="vbd-9C-81l" secondAttribute="trailingMargin" id="z6A-0N-3rR"/>
                         </constraints>
                     </view>
@@ -196,7 +181,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="42" placeholderIntrinsicHeight="21" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiW-cD-d4N">
-                                <rect key="frame" x="293" y="177" width="14" height="36"/>
+                                <rect key="frame" x="293" y="159" width="14" height="36"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="14" id="05S-p1-6A0"/>
@@ -210,10 +195,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="FiW-cD-d4N" firstAttribute="centerX" secondItem="Wep-sK-Tc4" secondAttribute="centerX" id="6d0-a7-Voc"/>
-                            <constraint firstItem="FiW-cD-d4N" firstAttribute="top" secondItem="Wep-sK-Tc4" secondAttribute="bottom" constant="26" id="CqN-Bu-g4J"/>
+                            <constraint firstItem="FiW-cD-d4N" firstAttribute="top" secondItem="Wep-sK-Tc4" secondAttribute="bottom" constant="8" id="CqN-Bu-g4J"/>
                             <constraint firstItem="YrU-1P-S0q" firstAttribute="top" secondItem="Wep-sK-Tc4" secondAttribute="bottom" constant="449" id="Zew-7X-Gh1"/>
                             <constraint firstItem="Wep-sK-Tc4" firstAttribute="top" secondItem="9yE-0Y-cYw" secondAttribute="bottom" constant="66" id="cbp-r1-PUn"/>
-                            <constraint firstItem="YrU-1P-S0q" firstAttribute="top" secondItem="FiW-cD-d4N" secondAttribute="bottom" constant="387" id="eQp-6l-I45"/>
+                            <constraint firstItem="YrU-1P-S0q" firstAttribute="top" secondItem="FiW-cD-d4N" secondAttribute="bottom" constant="405" id="eQp-6l-I45"/>
                             <constraint firstItem="Wep-sK-Tc4" firstAttribute="centerX" secondItem="Sg1-gb-FaR" secondAttribute="centerX" id="nJ3-kN-xu3"/>
                         </constraints>
                     </view>
@@ -242,7 +227,4 @@
             <point key="canvasLocation" x="-2651" y="-64"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="GI1-e7-1ot"/>
-    </inferredMetricsTieBreakers>
 </document>

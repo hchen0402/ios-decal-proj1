@@ -9,12 +9,15 @@
 import UIKit
 
 var numOfComplete = 0
+
+
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
    
     @IBOutlet weak var tableView: UITableView!
 
     var todoList = [String]()
+    var delegate: sendMessageDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
@@ -28,9 +31,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let DestViewController : AddView = segue.destinationViewController as! AddView
-        
-        DestViewController.delegate = self;
+        if (segue.destinationViewController is AddView) {
+            let DestViewController : AddView = segue.destinationViewController as! AddView
+            DestViewController.delegate = self;
+        }
     }
     
     

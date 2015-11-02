@@ -2,4 +2,132 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "To-Do List/ShowStatus.swift"
+            timestampString = "468150599.875316"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ShowStatus"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "To_Do_List.ShowStatus.init (To_Do_List.ShowStatus.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; To_Do_List.ShowStatus"
+                  moduleName = "To-Do List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanchen/Dropbox/iOS/ios-decal-proj1/To-Do%20List/To-Do%20List/ShowStatus.swift"
+                  timestampString = "468151790.587054"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "To_Do_List.ShowStatus.init (To_Do_List.ShowStatus.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;To_Do_List.ShowStatus&gt;"
+                  moduleName = "To-Do List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanchen/Dropbox/iOS/ios-decal-proj1/To-Do%20List/To-Do%20List/ShowStatus.swift"
+                  timestampString = "468151790.587417"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "To-Do List/ShowStatus.swift"
+            timestampString = "468150933.833678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ShowStatus"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "To_Do_List.ShowStatus.num.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "To-Do List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanchen/Dropbox/iOS/ios-decal-proj1/To-Do%20List/To-Do%20List/ShowStatus.swift"
+                  timestampString = "468150934.843036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "To_Do_List.ShowStatus.num.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "To-Do List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanchen/Dropbox/iOS/ios-decal-proj1/To-Do%20List/To-Do%20List/ShowStatus.swift"
+                  timestampString = "468150934.844123"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "To_Do_List.ShowStatus.init (To_Do_List.ShowStatus.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; To_Do_List.ShowStatus"
+                  moduleName = "To-Do List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanchen/Dropbox/iOS/ios-decal-proj1/To-Do%20List/To-Do%20List/ShowStatus.swift"
+                  timestampString = "468150934.844519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "To_Do_List.ShowStatus.init (To_Do_List.ShowStatus.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;To_Do_List.ShowStatus&gt;"
+                  moduleName = "To-Do List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanchen/Dropbox/iOS/ios-decal-proj1/To-Do%20List/To-Do%20List/ShowStatus.swift"
+                  timestampString = "468150934.844897"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
